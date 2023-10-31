@@ -13,7 +13,7 @@
         rel="stylesheet">
 </head>
 
-<body class="bg-[#f2f5fa] font-['Inter']">
+<body class="bg-[#f2f5fa] font-['Inter'] overflow-x-hidden">
     <!-- Navigation Bar Start -->
     <nav
         class="bg-gradient-to-r from-[#0e9bdf] from-20% to-[#21a5b1] to-80% flex justify-between items-center w-full h-20 px-4 fixed -top-1 z-[999]">
@@ -61,7 +61,7 @@
                         d="M61.7,-21.5C70.5,6.9,61.5,39.6,39.1,56.6C16.7,73.5,-19.2,74.6,-41.8,58.1C-64.4,41.5,-73.8,7.2,-64.6,-21.7C-55.5,-50.7,-27.7,-74.3,-0.6,-74.1C26.5,-73.9,53,-49.8,61.7,-21.5Z"
                         transform="translate(100 100)" />
                 </svg>
-                <svg class="opacity-20 w-52 absolute -left-28 top-56" viewBox="0 0 200 200"
+                <svg class="opacity-20 w-52 md:w-64 absolute -left-28 md:-left-16 top-56" viewBox="0 0 200 200"
                     xmlns="http://www.w3.org/2000/svg">
                     <path fill="#ffffff"
                         d="M61.7,-21.5C70.5,6.9,61.5,39.6,39.1,56.6C16.7,73.5,-19.2,74.6,-41.8,58.1C-64.4,41.5,-73.8,7.2,-64.6,-21.7C-55.5,-50.7,-27.7,-74.3,-0.6,-74.1C26.5,-73.9,53,-49.8,61.7,-21.5Z"
@@ -101,48 +101,49 @@
         <div class="w-full h-fit flex justify-around md:items-center mt-4 md:-translate-y-2 md:gap-2">
             <!-- icon#1 -->
             <div
-                class="flex flex-col items-center text-center md:flex-row md:h-20 md:flex-1 md:py-2 md:px-2 md:rounded-xl md:border-[0.2px] md:border-gray-400">
+                class="flex flex-col items-center text-center md:flex-row md:h-20 md:flex-1 md:justify-center md:px-2 md:rounded-xl md:border-[0.2px] md:border-gray-400">
                 <div class="flex flex-col items-center md:mr-2">
                     <img src="https://cdn-web-2.ruangguru.com/landing-pages/assets/hs/Ruangguru%20Revamp%202022/Product%20Selection/icon-utbk-persiapan.svg"
-                        alt="UTBK" class="w-12">
+                        alt="UTBK" class="w-12 md:mt-2">
                     <p
                         class="w-fit h-fit bg-[#e52a34] text-white text-[10px] rounded-full font-semibold px-2 -translate-y-3">
                         INTENSIF</p>
                 </div>
                 <p class="text-xs font-semibold ">Persiapan<br>UTBK-SNBT</p>
             </div>
+
             <!-- icon#2 -->
             <div
-                class="flex flex-col items-center text-center md:flex-row md:h-20 md:flex-1 md:py-2 md:px-2 md:rounded-xl md:border-[0.2px] md:border-gray-400">
+                class="flex flex-col items-center text-center md:flex-row md:h-20 md:flex-1 md:justify-center md:px-2 md:rounded-xl md:border-[0.2px] md:border-gray-400">
                 <div class=" w-12 h-12 bg-[#e4f3ff] flex items-center justify-center rounded-full md:mr-2">
                     <img width="37" height="37" src="dist/image/brain.png" alt="brain" />
                 </div>
-                <p class="text-xs font-semibold mt-3">Bimbel Online<br>Interaktif</p>
+                <p class="text-xs font-semibold mt-3 md:mt-0">Bimbel Online<br>Interaktif</p>
             </div>
             <!-- icon#3 -->
             <div
-                class="flex flex-col items-center text-center md:flex-row md:h-20 md:flex-1 md:py-2 md:px-2 md:rounded-xl md:border-[0.2px] md:border-gray-400">
+                class="flex flex-col items-center text-center md:flex-row md:h-20 md:flex-1 md:justify-center md:px-2 md:rounded-xl md:border-[0.2px] md:border-gray-400">
                 <div class="w-12 h-12 bg-[#e4f3ff] flex items-center justify-center rounded-full md:mr-3">
                     <img width="37" height="37" src="dist/image/teacher.png" alt="brain" />
                 </div>
-                <p class="text-xs font-semibold mt-3">Bimbel<br>Tatap Muka</p>
+                <p class="text-xs font-semibold mt-3 md:mt-0">Bimbel<br>Tatap Muka</p>
             </div>
             <!-- icon#4 -->
             <div
-                class="flex flex-col items-center text-center md:flex-row md:h-20 md:flex-1 md:py-2 md:px-2 md:rounded-xl md:border-[0.2px] md:border-gray-400">
+                class="flex flex-col items-center text-center md:flex-row md:h-20 md:flex-1 md:justify-center md:px-2 md:rounded-xl md:border-[0.2px] md:border-gray-400">
                 <div class="w-12 h-12 bg-[#e4f3ff] flex items-center justify-center rounded-full md:mr-3">
                     <img width="37" height="37" src="dist/image/all-products.png" alt="brain" />
                 </div>
-                <p class="text-xs font-semibold mt-3">Semua<br>Produk</p>
+                <p class="text-xs font-semibold mt-3 md:mt-0">Semua<br>Produk</p>
             </div>
         </div>
     </div>
     <!-- section#2 End -->
 
     <!-- section#3 Start -->
-    <div class="w-full px-5 justify-around flex items-center -mt-9 md:justify-start md:px-10 md:gap-4">
+    <div class="w-full px-4 justify-around flex items-center -mt-9 md:justify-start md:px-11 md:gap-4">
         <img src="dist/image/star.svg" alt="star">
-        <p class="font-bold">Paket populer untuk</p>
+        <p class="font-bold md:text-2xl">Paket populer untuk</p>
         <div class="flex justify-center items-center w-28 h-12 bg-white rounded-xl shadow-md">
             <p class="font-semibold mr-3">SMA</p>
             <i data-feather="chevron-down"></i>
@@ -151,7 +152,8 @@
     <!-- section#3 End -->
 
     <!-- section#4 Menu Start -->
-    <div class="w-full h-fit mt-4 px-4 flex flex-col items-center gap-3 md:flex-row md:overflow-x-scroll">
+    <div
+        class="w-full h-fit mt-4 px-4 flex flex-col items-center gap-3 md:flex-row md:overflow-x-scroll md:w-[90%] md:px-0 md:mx-auto">
         <div class="flex justify-center gap-2">
             <!-- card#1 -->
             <div class="flex flex-col w-[50%] md:w-60 h-fit">
@@ -552,21 +554,34 @@
     <!-- section#4 Menu End -->
 
     <!-- section#5 Start -->
-    <div class="mt-6 p-3 bg-white w-full h-fit">
+    <div class="mt-6 p-3 bg-white w-fit h-fit md:w-[90%] md:mx-auto md:relative md:overflow-hidden">
+        <!-- bubble -->
+        <div class="md:relative hidden md:block">
+            <svg class="w-80 absolute -right-36 top-44" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#faeadf"
+                    d="M61.7,-21.5C70.5,6.9,61.5,39.6,39.1,56.6C16.7,73.5,-19.2,74.6,-41.8,58.1C-64.4,41.5,-73.8,7.2,-64.6,-21.7C-55.5,-50.7,-27.7,-74.3,-0.6,-74.1C26.5,-73.9,53,-49.8,61.7,-21.5Z"
+                    transform="translate(100 100)" />
+            </svg>
+            <svg class="w-80 absolute -left-36 top-44" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <path fill="#faeadf"
+                    d="M61.7,-21.5C70.5,6.9,61.5,39.6,39.1,56.6C16.7,73.5,-19.2,74.6,-41.8,58.1C-64.4,41.5,-73.8,7.2,-64.6,-21.7C-55.5,-50.7,-27.7,-74.3,-0.6,-74.1C26.5,-73.9,53,-49.8,61.7,-21.5Z"
+                    transform="translate(100 100)" />
+            </svg>
+        </div>
         <!-- teks -->
-        <div class="text-center font-bold mb-2">
-            <p>Coba GRATIS kelas online Brain Academy<br>sekarang! 🌟</p>
+        <div class="text-center font-bold mb-2 md:my-5 md:text-2xl md:relative">
+            <p>Coba GRATIS kelas online Brain Academy<br class="md:hidden">sekarang! 🌟</p>
         </div>
         <!-- box video -->
-        <div class="bg-[#ed5836] rounded-3xl h-64">
-            <div class="bg-[#faeadf] rounded-3xl w-full h-[185px] flex justify-center items-center">
-                <video controls autoplay loop="true" class="rounded-lg w-80">
-                    <source src="dist/video/tv.mp4" type="video/mp4">
+        <div class="bg-[#ed5836] rounded-xl w-full md:w-[70%] md:mx-auto h-fit md:relative">
+            <div class="bg-[#faeadf] rounded-xl w-full h-fit py-2 px-2 flex justify-center items-center">
+                <video controls muted autoplay loop="true" class="rounded-lg w-full">
+                    <source src="dist/video/KunjunganIndustriPTVortex.mp4" type="video/mp4">
                     Your Browser does not support the video tag
                 </video>
             </div>
             <div class="px-4 h-[70px] flex justify-between items-center">
-                <p class="text-white font-bold text-sm">Yuk ikuti keseruan kelasnya!</p>
+                <p class="text-white font-bold text-sm md:text-base">Yuk ikuti keseruan kelasnya!</p>
                 <div class="w-fit h-fit p-2 bg-white rounded-full bg-opacity-30 motion-safe:animate-pulse">
                     <button class="w-fit h-fit bg-white px-3 py-2 rounded-full text-sm font-bold">Gabung Kelas</button>
                 </div>
@@ -576,15 +591,16 @@
     <!-- section#5 End -->
 
     <!-- section#6 Start -->
-    <div class="w-full h-fit px-3 mt-3 mb-5">
-        <div class="bg-[#5c28f7] h-24 w-full rounded-xl flex justify-between items-center px-2 overflow-hidden">
+    <div class="w-full h-fit px-3 md:px-10 mt-3 md:mt-6 mb-5">
+        <div class="bg-[#5c28f7] h-24 w-full rounded-xl flex justify-between items-center px-2 md:px-4 overflow-hidden">
             <div>
                 <img class="w-24 translate-y-2"
                     src="https://roboguru-forum-cdn.ruangguru.com/image/239d9bd1-76a6-4d30-ae05-48d83f4acace.png"
                     alt="person">
             </div>
             <div>
-                <p class="text-white text-sm">Lihat beragam <span class="font-bold">promo spesial</span><br>untukmu di
+                <p class="text-white text-sm md:text-base">Lihat beragam <span class="font-bold">promo
+                        spesial</span><br>untukmu di
                     <span class="font-bold">bulan Oktober</span>
                 </p>
             </div>
@@ -596,33 +612,45 @@
     <!-- section#6 End -->
 
     <!-- section#7 Start -->
-    <div class="mt-5 overflow-x-scroll">
-        <p class="font-bold mb-2 ml-3">Terbaru dari Ruangguru ✨</p>
-        <div class="flex h-fit w-full px-3 overflow-x-scroll overscroll-contain gap-3">
-            <img class="rounded-2xl" src="https://source.unsplash.com/random/1200x500/?coding" alt="computer">
-            <img class="rounded-2xl" src="https://source.unsplash.com/random/1200x500/?plant" alt="computer">
-            <img class="rounded-2xl" src="https://source.unsplash.com/random/1200x500/?programming" alt="computer">
-            <img class="rounded-2xl" src="https://source.unsplash.com/random/1200x500/?artificial" alt="computer">
-            <img class="rounded-2xl" src="https://source.unsplash.com/random/1200x500/?frontend" alt="computer">
-            <img class="rounded-2xl" src="https://source.unsplash.com/random/1200x500/?wire" alt="computer">
-            <img class="rounded-2xl" src="https://source.unsplash.com/random/1200x500/?coding" alt="computer">
-            <img class="rounded-2xl" src="https://source.unsplash.com/random/1200x500/?plant" alt="computer">
-            <img class="rounded-2xl" src="https://source.unsplash.com/random/1200x500/?programming" alt="computer">
-            <img class="rounded-2xl" src="https://source.unsplash.com/random/1200x500/?artificial" alt="computer">
-            <img class="rounded-2xl" src="https://source.unsplash.com/random/1200x500/?frontend" alt="computer">
-            <img class="rounded-2xl" src="https://source.unsplash.com/random/1200x500/?wire" alt="computer">
+    <div class="mt-5 md:px-10 md:mt-10">
+        <p class="font-bold mb-2 ml-3 md:ml-0 md:text-2xl md:mb-8">Terbaru dari Ruangguru ✨</p>
+        <div class="flex h-fit w-full px-3 md:px-0 overflow-x-scroll gap-3">
+            <img class="rounded-2xl md:w-[600px] md:h-auto" src="https://source.unsplash.com/random/1200x500/?coding"
+                alt="computer">
+            <img class="rounded-2xl md:w-[600px] md:h-auto" src="https://source.unsplash.com/random/1200x500/?plant"
+                alt="computer">
+            <img class="rounded-2xl md:w-[600px] md:h-auto"
+                src="https://source.unsplash.com/random/1200x500/?programming" alt="computer">
+            <img class="rounded-2xl md:w-[600px] md:h-auto"
+                src="https://source.unsplash.com/random/1200x500/?artificial" alt="computer">
+            <img class="rounded-2xl md:w-[600px] md:h-auto" src="https://source.unsplash.com/random/1200x500/?frontend"
+                alt="computer">
+            <img class="rounded-2xl md:w-[600px] md:h-auto" src="https://source.unsplash.com/random/1200x500/?wire"
+                alt="computer">
+            <img class="rounded-2xl md:w-[600px] md:h-auto" src="https://source.unsplash.com/random/1200x500/?coding"
+                alt="computer">
+            <img class="rounded-2xl md:w-[600px] md:h-auto" src="https://source.unsplash.com/random/1200x500/?plant"
+                alt="computer">
+            <img class="rounded-2xl md:w-[600px] md:h-auto"
+                src="https://source.unsplash.com/random/1200x500/?programming" alt="computer">
+            <img class="rounded-2xl md:w-[600px] md:h-auto"
+                src="https://source.unsplash.com/random/1200x500/?artificial" alt="computer">
+            <img class="rounded-2xl md:w-[600px] md:h-auto" src="https://source.unsplash.com/random/1200x500/?frontend"
+                alt="computer">
+            <img class="rounded-2xl md:w-[600px] md:h-auto" src="https://source.unsplash.com/random/1200x500/?wire"
+                alt="computer">
         </div>
     </div>
     <!-- section#7 End -->
 
     <!-- section#8 Start -->
-    <div class="mt-10 overflow-x-scroll overscroll-contain">
-        <p class="font-bold ml-3">Berbagi solusi belajar lainnya untukmu</p>
-        <div class="mt-3 flex h-fit w-full px-3 overflow-x-scroll overscroll-contain gap-3">
+    <div class="mt-10 overflow-x-scroll overscroll-contain md:px-10">
+        <p class="font-bold ml-3 md:ml-0 md:text-2xl">Berbagi solusi belajar lainnya untukmu</p>
+        <div class="mt-3 flex h-fit w-full px-3 md:px-0 overflow-x-scroll overscroll-contain gap-3">
             <!-- card#1 -->
             <div>
                 <div class=" bg-gradient-to-bl from-[#92caf9] to-[#e0eefa] w-44
-                 h-64 p-3 rounded-2xl flex flex-col items-center justify-between">
+                 h-64 p-3 rounded-2xl flex flex-col items-center justify-between md:w-64">
                     <div>
                         <div
                             class="w-12 h-12 bg-[#d4e9fb] flex justify-center items-center rounded-full mb-4 self-start">
@@ -641,13 +669,13 @@
             <!-- card#2 -->
             <div>
                 <div class=" bg-gradient-to-bl from-amber-400 to-[#e0eefa] w-44
-                 h-64 p-3 rounded-2xl flex flex-col items-center justify-between">
+                 h-64 p-3 rounded-2xl flex flex-col items-center justify-between md:w-64">
                     <div>
                         <div
                             class="w-12 h-12 bg-[#d4e9fb] flex justify-center items-center rounded-full mb-4 self-start">
                             <img class="w-8" src="dist/image/schedule.png" alt="form">
                         </div>
-                        <div class="mb-[70px]">
+                        <div>
                             <h3 class="font-bold mb-2">UTBK Center</h3>
                             <p class="text-xs">Persiapan hadapi Tes Skolastik UTBK-SNBT</p>
                         </div>
@@ -659,8 +687,8 @@
             </div>
             <!-- card#3 -->
             <div>
-                <div class=" bg-gradient-to-bl from-red-500 to-[#e0eefa] w-44
-                 h-64 p-3 rounded-2xl flex flex-col items-center justify-between">
+                <div
+                    class=" bg-gradient-to-bl from-red-500 to-[#e0eefa] w-44 h-64 p-3 rounded-2xl flex flex-col items-center justify-between md:w-64 md:items-start">
                     <div>
                         <div
                             class="w-12 h-12 bg-[#d4e9fb] flex justify-center items-center rounded-full mb-4 self-start">
@@ -671,15 +699,18 @@
                             <p class="text-xs">Les privat dengan tutor terbaik</p>
                         </div>
                     </div>
-                    <button type="submit" class="bg-white w-fit h-fit py-1 px-5 rounded-full font-semibold">
-                        Lihat Detail
-                    </button>
+
+                    <div class="md:mx-auto">
+                        <button type="submit" class="bg-white w-fit h-fit py-1 px-5 rounded-full font-semibold">
+                            Lihat Detail
+                        </button>
+                    </div>
                 </div>
             </div>
             <!-- card#4 -->
             <div>
                 <div class=" bg-gradient-to-bl from-green-500 to-[#e0eefa] w-44
-                 h-64 p-3 rounded-2xl flex flex-col items-center justify-between">
+                 h-64 p-3 rounded-2xl flex flex-col items-center justify-between md:w-64 md:items-start">
                     <div>
                         <img class="w-12 mb-4 self-start"
                             src="https://cdn-web-2.ruangguru.com/landing-pages/assets/hs/00%20-%20Homepage%20Ruangguru%202022/silabus-icon/roboguru.svg"
@@ -689,15 +720,17 @@
                             <p class="text-xs">Forum tanya jawab dan diskusi soal</p>
                         </div>
                     </div>
-                    <button type="submit" class="bg-white w-fit h-fit py-1 px-5 rounded-full font-semibold">
-                        Lihat Detail
-                    </button>
+                    <div class="md:mx-auto">
+                        <button type="submit" class="bg-white w-fit h-fit py-1 px-5 rounded-full font-semibold">
+                            Lihat Detail
+                        </button>
+                    </div>
                 </div>
             </div>
             <!-- card#5 -->
             <div>
                 <div class=" bg-gradient-to-bl from-purple-500 to-[#e0eefa] w-44
-                 h-64 p-3 rounded-2xl flex flex-col items-center justify-between">
+                 h-64 p-3 rounded-2xl flex flex-col items-center justify-between md:w-64">
                     <div>
                         <img class="w-12 mb-4 self-start"
                             src="https://cdn-web-2.ruangguru.com/landing-pages/assets/hs/00%20-%20Homepage%20Ruangguru%202022/silabus-icon/schoters.svg"
@@ -715,23 +748,28 @@
             <!-- card#6 -->
             <div>
                 <div class=" bg-gradient-to-bl from-violet-500 to-[#e0eefa] w-44
-                 h-64 p-3 rounded-2xl flex flex-col items-center">
-                    <div class="w-12 h-12 bg-[#d4e9fb] flex justify-center items-center rounded-full mb-4 self-start">
-                        <img class="w-8" src="dist/image/building.png" alt="form">
+                 h-64 p-3 rounded-2xl flex flex-col items-center md:w-64 justify-between md:items-start">
+                    <div>
+                        <div
+                            class="w-12 h-12 bg-[#d4e9fb] flex justify-center items-center rounded-full mb-4 self-start">
+                            <img class="w-8" src="dist/image/building.png" alt="form">
+                        </div>
+                        <div class="mb-12">
+                            <h3 class="font-bold mb-2">Kampus Hub Ruangguru</h3>
+                            <p class="text-xs">Informasi seputar kampus dan prodi</p>
+                        </div>
                     </div>
-                    <div class="mb-12">
-                        <h3 class="font-bold mb-2">Kampus Hub Ruangguru</h3>
-                        <p class="text-xs">Informasi seputar kampus dan prodi</p>
+                    <div class="md:mx-auto">
+                        <button type="submit" class="bg-white w-fit h-fit py-1 px-5 rounded-full font-semibold">
+                            Lihat Detail
+                        </button>
                     </div>
-                    <button type="submit" class="bg-white w-fit h-fit py-1 px-5 rounded-full font-semibold">
-                        Lihat Detail
-                    </button>
                 </div>
             </div>
             <!-- card#7 -->
             <div>
                 <div class=" bg-gradient-to-bl from-rose-600 to-[#e0eefa] w-44
-                 h-64 p-3 rounded-2xl flex flex-col items-center justify-between">
+                 h-64 p-3 rounded-2xl flex flex-col items-center justify-between md:w-64">
                     <div>
                         <div
                             class="w-12 h-12 bg-[#d4e9fb] flex justify-center items-center rounded-full mb-4 self-start">
@@ -760,33 +798,39 @@
     <!-- button -->
 
     <!-- section#9 Start -->
-    <div class="w-full mx-auto px-2">
+    <div class="w-full mx-auto px-2 md:w-[90%]">
         <div
             class="w-full h-48 bg-gradient-to-br from-[#0084cc] to-[#2fafc0] rounded-xl flex items-center overflow-hidden pr-1">
             <img src="https://roboguru-forum-cdn.ruangguru.com/image/9a73701a-ce24-42e5-9bf4-a329fcd0c7dc.png?convert=webp&height=240"
                 alt="person" class="w-56 -ml-7 -mb-7">
-            <div class="text-white">
-                <p class="text-xs mb-2">Masih punya pertanyaan?</p>
-                <p>Tanyakan via chat<br>ke Konsultan Pendidikan</p>
-                <div class="w-fit h-fit bg-white text-black flex items-center p-2 rounded-2xl mt-2">
+            <div class="text-white md:flex md:items-center md:gap-5">
+                <div>
+                    <p class="text-xs mb-2 md:text-base">Masih punya pertanyaan?</p>
+                    <p class="font-semibold md:text-2xl">Tanyakan via chat<br>ke Konsultan Pendidikan</p>
+                </div>
+                <div
+                    class="w-fit h-fit bg-white text-black flex items-center p-2 rounded-2xl mt-2 md:p-5 md:rounded-full">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="w-4 h-4 mr-2">
+                        stroke="currentColor" class="w-4 h-4 mr-2 md:w-7 md:h-7">
                         <path stroke-linecap="round" stroke-linejoin="round"
                             d="M8.625 12a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H8.25m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0H12m4.125 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 01-2.555-.337A5.972 5.972 0 015.41 20.97a5.969 5.969 0 01-.474-.065 4.48 4.48 0 00.978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25z" />
                     </svg>
-                    <p class="text-xs">Chat Konsultan</p>
+                    <p class="text-xs font-semibold md:text-base">Chat Konsultan</p>
                 </div>
             </div>
         </div>
-        <div class="flex items-center mt-3">
+        <div class="flex items-center mt-3 md:justify-between">
             <div>
-                <p class="font-bold text-xl">Coba belajar langsung di aplikasi Ruangguru</p>
-                <p class="text-sm">download sekarang!</p>
+                <p class="font-bold text-xl md:text-3xl">Coba belajar langsung di<br class="hidden md:block"> aplikasi
+                    Ruangguru</p>
+                <p class="text-sm md:text-lg md:mt-2">download sekarang!</p>
             </div>
             <img src="https://roboguru-forum-cdn.ruangguru.com/image/377396e9-ce37-49ea-9baa-d313149e2fef.png?convert=webp&height=240"
-                class="w-36" />
+                class="w-36 md:hidden" />
+            <img src="https://roboguru-forum-cdn.ruangguru.com/image/6e8e0529-ae80-4e70-8a5f-a4170bb8c2f6.png?convert=webp&height=420"
+                class="w-80 hidden md:block">
         </div>
-        <div class="w-full overflow-hidden flex justify-start">
+        <div class="w-full overflow-hidden flex justify-start md:-mt-20">
             <img src="dist/image/google-play-badge.png" alt="get it on Google Play" class="w-36 mr-3 rounded-3xl">
             <img src="dist/image/app-store-badge.png" alt="Download on the App Store" class="w-36 rounded-3xl">
         </div>
@@ -794,12 +838,12 @@
     <!-- section#9 End -->
 
     <!-- FAQ start -->
-    <div class="mt-2 bg-gradient-to-b from-[#13939e] to-[#0084cc] px-3 py-5 w-full h-fit">
-        <h3 class="text-white text-center font-bold text-xl mb-2">Paling Sering ditanyakan</h3>
+    <div class="mt-2 md:mt-20 bg-gradient-to-b from-[#13939e] to-[#0084cc] px-3 py-5 w-full h-fit md:py-12">
+        <h3 class="text-white text-center font-bold text-xl mb-2 md:mb-5">Paling Sering ditanyakan</h3>
         <!-- #1 -->
         <div class="faq bg-white px-4 pt-3 pb-1 rounded-lg mb-3">
-            <div class="flex mb-2 items-center justify-between text-sm">
-                <p class="font-bold">Apa yang dimaksud dengan aplikasi belajar<br> online?</p>
+            <div class="flex mb-2 items-center justify-between text-sm md:text-base">
+                <p class="font-bold">Apa yang dimaksud dengan aplikasi belajar<br class="md:hidden"> online?</p>
                 <i data-feather="chevron-down" class="down0 duration-700"></i>
             </div>
             <p class="answer0 hidden">Aplikasi belajar online adalah sebuah layanan yang menawarkan solusi belajar
@@ -809,8 +853,9 @@
         </div>
         <!-- #2 -->
         <div class="faq bg-white px-4 pt-3 pb-1 rounded-lg mb-3">
-            <div class="flex mb-2 items-center justify-between text-sm">
-                <p class="font-bold">Bagaimana efektivitas penggunaan aplikasi<br> pembelajaran online di Indonesia?</p>
+            <div class="flex mb-2 items-center justify-between text-sm md:text-base">
+                <p class="font-bold">Bagaimana efektivitas penggunaan aplikasi<br class="md:hidden"> pembelajaran online
+                    di Indonesia?</p>
                 <i data-feather="chevron-down" class="down1 duration-700"></i>
             </div>
             <p class="answer1 hidden">Sejak pandemi Covid 19 melanda Indonesia, intensitas penggunaan aplikasi
@@ -820,8 +865,9 @@
         </div>
         <!-- #3 -->
         <div class="faq bg-white px-4 pt-3 pb-1 rounded-lg mb-3">
-            <div class="flex mb-2 items-center justify-between text-sm">
-                <p class="font-bold">Apakah bimbel online Ruangguru tersedia juga<br> dalam versi desktop/PC?</p>
+            <div class="flex mb-2 items-center justify-between text-sm md:text-base">
+                <p class="font-bold">Apakah bimbel online Ruangguru tersedia<br class="md:hidden"> juga dalam versi
+                    desktop/PC?</p>
                 <i data-feather="chevron-down" class="down2 duration-700"></i>
             </div>
             <p class="answer2 hidden">Ya, kamu bisa langsung mengunjungi app.ruangguru.com di sini untuk mengakses
@@ -830,9 +876,10 @@
         </div>
         <!-- #4 -->
         <div class="faq bg-white px-4 pt-3 pb-1 rounded-lg mb-3">
-            <div class="flex mb-2 items-center justify-between text-sm">
-                <p class="font-bold">Apa saja kendala yang dihadapi saat <br> menggunakan aplikasi pembelajaran
-                    secara<br>
+            <div class="flex mb-2 items-center justify-between text-sm md:text-base">
+                <p class="font-bold">Apa saja kendala yang dihadapi saat <br class="md:hidden"> menggunakan aplikasi
+                    pembelajaran
+                    secara<br class="md:hidden">
                     online?</p>
                 <i data-feather="chevron-down" class="down3 duration-700"></i>
             </div>
@@ -843,8 +890,8 @@
         </div>
         <!-- #5 -->
         <div class="faq bg-white px-4 pt-3 pb-1 rounded-lg mb-3">
-            <div class="flex mb-2 items-center justify-between text-sm">
-                <p class="font-bold">Bagaimana langkah-langkah penerapan belajar<br> online?</p>
+            <div class="flex mb-2 items-center justify-between text-sm md:text-base">
+                <p class="font-bold">Bagaimana langkah-langkah penerapan belajar online?</p>
                 <i data-feather="chevron-down" class="down4 duration-700"></i>
             </div>
             <p class="answer4 hidden">Untuk menunjang kegiatan belajar online harus memiliki gawai (gadget) yang
@@ -854,7 +901,7 @@
         </div>
         <!-- #6 -->
         <div class="faq bg-white px-4 pt-3 pb-1 rounded-lg mb-3">
-            <div class="flex mb-2 items-center justify-between text-sm">
+            <div class="flex mb-2 items-center justify-between text-sm md:text-base">
                 <p class="font-bold">Apa saja aplikasi belajar online yang gratis?</p>
                 <i data-feather="chevron-down" class="down5 duration-700"></i>
             </div>
@@ -866,7 +913,7 @@
         </div>
         <!-- #7 -->
         <div class="faq bg-white px-4 pt-3 pb-1 rounded-lg">
-            <div class="flex mb-2 items-center justify-between text-sm">
+            <div class="flex mb-2 items-center justify-between text-sm md:target:text-base">
                 <p class="font-bold">Apa yang dimaksud dengan bimbel?</p>
                 <i data-feather="chevron-down" class="down6 duration-700"></i>
             </div>

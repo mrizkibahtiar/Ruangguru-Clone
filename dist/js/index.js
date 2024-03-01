@@ -15,14 +15,46 @@ const navMobile = document.querySelector('#navbar-mobile');
 burgerButton.addEventListener('click', () => {
     navMobile.classList.toggle('-translate-y-[500px]');
     // navMobile.classList.remove('animate-sembunyi');
-    navMobile.classList.toggle('animate-sembunyi');
-    navMobile.classList.toggle('animate-muncul');
+    navMobile.classList.toggle('animate-sembunyiAtas');
+    navMobile.classList.toggle('animate-munculBawah');
 
 })
-if (navMobile.classList.contains('animate-muncul')) {
+if (navMobile.classList.contains('animate-munculBawah')) {
     burgerButton.addEventListener('click', () => {
-        navMobile.classList.toggle('animate-muncul');
-        navMobile.classList.toggle('animate-sembunyi');
+        navMobile.classList.toggle('animate-munculBawah');
+        navMobile.classList.toggle('animate-sembunyiAtas');
         navMobile.classList.toggle('-translate-y-[500px]');
     })
 }
+
+// Semua Produk
+const buttonSemuaProduk = document.querySelector('#button-semua-produk');
+const semuaProduk = document.querySelector('#semua-produk');
+const buttonSilang = document.querySelector('#button-silang');
+buttonSemuaProduk.addEventListener('click', () => {
+    semuaProduk.classList.toggle('translate-y-[500px]');
+    // semuaProduk.classList.remove('animate-sembunyi');
+    semuaProduk.classList.toggle('animate-sembunyiBawah');
+    semuaProduk.classList.toggle('animate-munculAtas');
+
+})
+if (semuaProduk.classList.contains('animate-munculAtas')) {
+    buttonSemuaProduk.addEventListener('click', () => {
+        semuaProduk.classList.toggle('animate-munculAtas');
+        semuaProduk.classList.toggle('animate-sembunyiBawah');
+        semuaProduk.classList.toggle('translate-y-[500px]');
+    });
+}
+if (semuaProduk.classList.contains('animate-munculAtas')) {
+    document.querySelector('body').addEventListener('click', () => {
+        semuaProduk.classList.toggle('animate-munculAtas');
+        semuaProduk.classList.toggle('animate-sembunyiBawah');
+        semuaProduk.classList.toggle('translate-y-[500px]');
+    });
+}
+buttonSilang.addEventListener('click', () => {
+
+    semuaProduk.classList.toggle('animate-munculAtas');
+    semuaProduk.classList.toggle('animate-sembunyiBawah');
+    semuaProduk.classList.toggle('translate-y-[500px]');
+});

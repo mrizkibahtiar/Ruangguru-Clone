@@ -39,7 +39,7 @@
         </div>
     </nav>
     <div id="navbar-mobile"
-        class="fixed flex flex-col top-[75px] left-0 right-0 bg-gradient-to-r from-[#0e9bdf] from-20% to-[#21a5b1] to-80% py-3 lg:block z-[9] -translate-y-[500px] animate-sembunyi">
+        class="fixed flex flex-col top-[75px] left-0 right-0 bg-gradient-to-r from-[#0e9bdf] from-20% to-[#21a5b1] to-80% py-3 lg:block z-[9] -translate-y-[500px] animate-sembunyiAtas">
         <ul class="flex flex-col justify-center items-center w-full gap-8 text-white">
             <li>
                 <span>Produk</span>
@@ -164,12 +164,188 @@
                 <p class="text-xs font-semibold mt-3 md:mt-0">Bimbel<br>Tatap Muka</p>
             </div>
             <!-- icon#4 -->
-            <div
-                class="flex flex-col items-center text-center md:flex-row md:h-20 md:flex-1 md:justify-center md:px-2 md:rounded-xl md:border-[0.2px] md:border-gray-400">
+            <div class="flex flex-col items-center text-center md:flex-row md:h-20 md:flex-1 md:justify-center md:px-2 md:rounded-xl md:border-[0.2px] md:border-gray-400"
+                id="button-semua-produk">
                 <div class="w-12 h-12 bg-[#e4f3ff] flex items-center justify-center rounded-full md:mr-3">
                     <img width="37" height="37" src="dist/image/all-products.png" alt="brain" />
                 </div>
                 <p class="text-xs font-semibold mt-3 md:mt-0">Semua<br>Produk</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="bg-white fixed bottom-0 left-0 right-0 h-2/3 pb-3 px-5 pt-6 rounded-t-3xl z-30 overflow-scroll translate-y-[500px] animate-sembunyiBawah"
+        id="semua-produk">
+        <div class="flex items-center w-full justify-between">
+            <h2 class="font-bold text-xl">Produk apa yang ingin dicoba?</h2>
+            <div class="text-xl px-4 py-2 hover:text-white hover:bg-blue-500 hover:rounded-full transition-all duration-300 font-semibold"
+                id="button-silang">X
+            </div>
+        </div>
+        <!-- semua menu 1 -->
+        <div class="mt-2 border-b-2 border-dashed pb-5 border-gray-500">
+            <p class="font-semibold mb-4">Video Belajar</p>
+            <div class="flex gap-3 items-center">
+                <div class="w-fit h-fit box-border p-2 bg-[#ffedeb] rounded-full">
+                    <img src="dist/image/icons8-video-96.png">
+                </div>
+                <div>
+                    <p class="font-semibold">ruangbelajar</p>
+                    <p class="font-light text-gray-500">Video Adaptif yang menyesuaikan kecepatan belajar, dilengkapi
+                        latihan soal dan
+                        rangkuman</p>
+                </div>
+            </div>
+            <div class="flex gap-3 items-center mt-7">
+                <div class="w-fit h-fit box-border p-2 bg-[#ffedeb] rounded-full">
+                    <img src="dist/image/icons8-video-96.png">
+                </div>
+                <div>
+                    <p class="font-semibold">Dafa & Lulu</p>
+                    <p class="font-light text-gray-500">Belajar sambil bermain dengan karakter Dafa & Lulu dalam video
+                        beranimasi interaktif</p>
+                </div>
+            </div>
+        </div>
+        <!-- semua menu 3 -->
+        <div class="py-6 border-b-2 border-dashed pb-5 border-gray-500">
+            <p class="font-semibold mb-4">Belajar langsung bersama guru</p>
+            <div class="flex gap-3 items-center">
+                <div class="w-fit h-fit box-border p-2 bg-[#ffedeb] rounded-full">
+                    <img src="dist/image/icons8-video-96.png">
+                </div>
+                <div>
+                    <p class="font-semibold">Brain Academy Online</p>
+                    <p class="font-light text-gray-500">Video Adaptif yang menyesuaikan kecepatan belajar, dilengkapi
+                        latihan soal dan
+                        rangkuman</p>
+                </div>
+            </div>
+            <div class="flex gap-3 items-center mt-7">
+                <div class="w-fit h-fit box-border p-2 bg-[#ffedeb] rounded-full">
+                    <img src="dist/image/icons8-video-96.png">
+                </div>
+                <div>
+                    <p class="font-semibold">Brain Academy Center</p>
+                    <p class="font-light text-gray-500">Belajar sambil bermain dengan karakter Dafa & Lulu dalam video
+                        beranimasi interaktif</p>
+                </div>
+            </div>
+            <div class="flex gap-3 items-center mt-7">
+                <div class="w-fit h-fit box-border p-2 bg-[#ffedeb] rounded-full">
+                    <img src="dist/image/icons8-video-96.png">
+                </div>
+                <div>
+                    <p class="font-semibold">English Academy</p>
+                    <p class="font-light text-gray-500">Kursus bahasa inggris dengan kurikulum Cambridge dan pengajar
+                        tersertifikasi</p>
+                </div>
+            </div>
+            <div class="flex gap-3 items-center mt-7">
+                <div class="w-fit h-fit box-border p-2 bg-[#ffedeb] rounded-full">
+                    <img src="dist/image/icons8-video-96.png">
+                </div>
+                <div>
+                    <p class="font-semibold">Roboguru Plus</p>
+                    <p class="font-light text-gray-500">Tanya PR atau mater sulit lewat chat ke tutor yang standby 24
+                        jam</p>
+                </div>
+            </div>
+            <div class="flex gap-3 items-center mt-7">
+                <div class="w-fit h-fit box-border p-2 bg-[#ffedeb] rounded-full">
+                    <img src="dist/image/icons8-video-96.png">
+                </div>
+                <div>
+                    <p class="font-semibold">Ruangguru Privat</p>
+                    <p class="font-light text-gray-500">Les privat esklusif bersama pengajar berpengalaman dari lulusan
+                        terbaik</p>
+                </div>
+            </div>
+            <div class="flex gap-3 items-center mt-7">
+                <div class="w-fit h-fit box-border p-2 bg-[#ffedeb] rounded-full">
+                    <img src="dist/image/icons8-video-96.png">
+                </div>
+                <div>
+                    <p class="font-semibold">Kursus Ruangguru for Kids</p>
+                    <p class="font-light text-gray-500">Kursus online calistung, Sains, Matematika, hingga baca dan
+                        tulis Al-Qur'an</p>
+                </div>
+            </div>
+            <div class="flex gap-3 items-center mt-7">
+                <div class="w-fit h-fit box-border p-2 bg-[#ffedeb] rounded-full">
+                    <img src="dist/image/icons8-video-96.png">
+                </div>
+                <div>
+                    <p class="font-semibold">Alta School</p>
+                    <p class="font-light text-gray-500">Sekolah online interaktif dengan Live Teaching dan aktivitas
+                        pengembangan minat bakat</p>
+                </div>
+            </div>
+            <div class="flex gap-3 items-center mt-7">
+                <div class="w-fit h-fit box-border p-2 bg-[#ffedeb] rounded-full">
+                    <img src="dist/image/icons8-video-96.png">
+                </div>
+                <div>
+                    <p class="font-semibold">Kursus Coding by Kalananti</p>
+                    <p class="font-light text-gray-500">Kursus coding dengan kurikulum programming yang mengasah
+                        kreativitas</p>
+                </div>
+            </div>
+        </div>
+        <div class="py-6 border-b-2 border-dashed pb-5 border-gray-500">
+            <p class="font-semibold mb-4">Latihan soal dan ujian</p>
+            <div class="flex gap-3 items-center">
+                <div class="w-fit h-fit box-border p-2 bg-[#ffedeb] rounded-full">
+                    <img src="dist/image/icons8-video-96.png">
+                </div>
+                <div>
+                    <p class="font-semibold">Try Out</p>
+                    <p class="font-light text-gray-500">Simulasi ujian PTS, PAS, dan UTBK dengan sistem penilaian item
+                        response theory (IRT)</p>
+                </div>
+            </div>
+            <div class="flex gap-3 items-center mt-7">
+                <div class="w-fit h-fit box-border p-2 bg-[#ffedeb] rounded-full">
+                    <img src="dist/image/icons8-video-96.png">
+                </div>
+                <div>
+                    <p class="font-semibold">Roboguru</p>
+                    <p class="font-light text-gray-500">Tanya jawab soal dengan guru dan teman sambil mengumpulkan
+                        hadiah Gold dan XP</p>
+                </div>
+            </div>
+        </div>
+        <div class="py-6">
+            <p class="font-semibold mb-4">Persiapan masuk kampus impian</p>
+            <div class="flex gap-3 items-center">
+                <div class="w-fit h-fit box-border p-2 bg-[#ffedeb] rounded-full">
+                    <img src="dist/image/icons8-video-96.png">
+                </div>
+                <div>
+                    <p class="font-semibold">UTBK Center</p>
+                    <p class="font-light text-gray-500">Persiapan Tes Skolastik UTBK-SNBT untuk persiapan masuk kampus
+                        impian</p>
+                </div>
+            </div>
+            <div class="flex gap-3 items-center mt-7">
+                <div class="w-fit h-fit box-border p-2 bg-[#ffedeb] rounded-full">
+                    <img src="dist/image/icons8-video-96.png">
+                </div>
+                <div>
+                    <p class="font-semibold">Schoters</p>
+                    <p class="font-light text-gray-500">Platform bimbingan kuliah ke luar negeri, mulai dari pendaftaran
+                        hingga simulasi wawancara</p>
+                </div>
+            </div>
+            <div class="flex gap-3 items-center mt-7">
+                <div class="w-fit h-fit box-border p-2 bg-[#ffedeb] rounded-full">
+                    <img src="dist/image/icons8-video-96.png">
+                </div>
+                <div>
+                    <p class="font-semibold">Kampus Hub Ruangguru</p>
+                    <p class="font-light text-gray-500">Kumpulan informasi lengkap seputar kampus dan program studi
+                        terbaru</p>
+                </div>
             </div>
         </div>
     </div>

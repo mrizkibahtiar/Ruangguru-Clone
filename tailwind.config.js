@@ -7,22 +7,36 @@ module.exports = {
     },
     extend: {
       animation: {
-        muncul: 'muncul 1s ease-in-out 1',
-        sembunyi: 'sembunyi 1s ease-in-out 1'
+        munculBawah: 'munculBawah 1s ease-in-out 1',
+        munculAtas: 'munculAtas 1s ease-in-out 1',
+        sembunyiAtas: 'sembunyiAtas 1s ease-in-out 1',
+        sembunyiBawah: 'sembunyiBawah 1s ease-in-out 1',
       },
       keyframes: {
-        muncul: {
+        munculBawah: {
           '0%': { transform: 'translateY(-500px)' },
           // '25%': { transform: 'translateY(-300px)' },
           // '50%': { transform: 'translateY(-100px)' },
           '100%': { transform: 'translateY(0px)' }
         },
-        sembunyi: {
+        sembunyiAtas: {
           '0%': { transform: 'translateY(0)' },
           // '25%': { transform: 'translateY(-300px)' },
           // '50%': { transform: 'translateY(-100px)' },
           '100%': { transform: 'translateY(-500px)' }
-        }
+        },
+        munculAtas: {
+          '0%': { transform: 'translateY(500px)' },
+          // '25%': { transform: 'translateY(-300px)' },
+          // '50%': { transform: 'translateY(-100px)' },
+          '100%': { transform: 'translateY(0px)' }
+        },
+        sembunyiBawah: {
+          '0%': { transform: 'translateY(0px)' },
+          // '25%': { transform: 'translateY(-300px)' },
+          // '50%': { transform: 'translateY(-100px)' },
+          '100%': { transform: 'translateY(500px)' }
+        },
       }
     },
   },

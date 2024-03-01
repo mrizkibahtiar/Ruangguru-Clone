@@ -7,12 +7,21 @@ module.exports = {
     },
     extend: {
       animation: {
-        ganti: 'ganti 2s ease-in-out infinite'
+        muncul: 'muncul 1s ease-in-out 1',
+        sembunyi: 'sembunyi 1s ease-in-out 1'
       },
       keyframes: {
-        ganti: {
-          '0%, 100%': { transform: 'scale(0)' },
-          '50%': { transform: 'scale(1)' }
+        muncul: {
+          '0%': { transform: 'translateY(-500px)' },
+          // '25%': { transform: 'translateY(-300px)' },
+          // '50%': { transform: 'translateY(-100px)' },
+          '100%': { transform: 'translateY(0px)' }
+        },
+        sembunyi: {
+          '0%': { transform: 'translateY(0)' },
+          // '25%': { transform: 'translateY(-300px)' },
+          // '50%': { transform: 'translateY(-100px)' },
+          '100%': { transform: 'translateY(-500px)' }
         }
       }
     },

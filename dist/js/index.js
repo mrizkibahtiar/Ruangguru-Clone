@@ -13,6 +13,16 @@ faq.forEach((item, index) => {
 const burgerButton = document.querySelector('#burger-button');
 const navMobile = document.querySelector('#navbar-mobile');
 burgerButton.addEventListener('click', () => {
-    navMobile.classList.remove('scale-0');
-    navMobile.classList.add('scale-100');
+    navMobile.classList.toggle('-translate-y-[500px]');
+    // navMobile.classList.remove('animate-sembunyi');
+    navMobile.classList.toggle('animate-sembunyi');
+    navMobile.classList.toggle('animate-muncul');
+
 })
+if (navMobile.classList.contains('animate-muncul')) {
+    burgerButton.addEventListener('click', () => {
+        navMobile.classList.toggle('animate-muncul');
+        navMobile.classList.toggle('animate-sembunyi');
+        navMobile.classList.toggle('-translate-y-[500px]');
+    })
+}

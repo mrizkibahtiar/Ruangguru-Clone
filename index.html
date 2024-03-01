@@ -16,7 +16,7 @@
 <body class="bg-[#f2f5fa] font-['Inter'] overflow-x-hidden">
     <!-- Navigation Bar Start -->
     <nav
-        class="bg-gradient-to-r from-[#0e9bdf] from-20% to-[#21a5b1] to-80% flex justify-between items-center w-full h-20 px-4 fixed -top-1 z-[999] lg:px-10 lg:h-24">
+        class="bg-gradient-to-r from-[#0e9bdf] from-20% to-[#21a5b1] to-80% flex justify-between items-center w-full h-20 px-4 fixed -top-1 lg:px-10 lg:h-24 z-10">
         <div class="flex items-center">
             <div id="burger-button"
                 class="bg-white h-10 w-10 rounded-full flex justify-center items-center mr-5 lg:hidden">
@@ -31,43 +31,44 @@
                     fill="white" />
             </svg>
         </div>
-        <div id="navbar-mobile"
-            class="absolute flex flex-col top-[79px] left-0 right-0 bg-gradient-to-r from-[#0e9bdf] from-20% to-[#21a5b1] to-80% py-3 lg:block scale-0">
-            <ul class="flex flex-col justify-center items-center w-full gap-8 text-white">
-                <li>
-                    <span>Produk</span>
-                    <img src="dist/image/down.png" alt="down" class="w-2 ml-1 inline-block">
-                </li>
-                <li>
-                    <span>Program</span>
-                </li>
-                <li>
-                    <span>Promo</span>
-                </li>
-                <li>
-                    <span>Event</span>
-                </li>
-                <li>
-                    <span>Beasiswa</span>
-                </li>
-                <li>
-                    <span>Testimoni</span>
-                </li>
-                <li>
-                    <span>Layanan</span>
-                    <img src="dist/image/down.png" alt="down" class="w-2 ml-2 inline-block">
-                </li>
-                <li>
-                    <span>Ruangbaca</span>
-                </li>
-            </ul>
-        </div>
+
         <div class="w-fit h-fit py-2 px-2 rounded-full bg-white bg-opacity-40">
             <div class="w-fit h-fit bg-white py-1 px-5 rounded-full">
                 <a href="#" class="font-semibold">Beli Paket Belajar</a>
             </div>
         </div>
     </nav>
+    <div id="navbar-mobile"
+        class="fixed flex flex-col top-[75px] left-0 right-0 bg-gradient-to-r from-[#0e9bdf] from-20% to-[#21a5b1] to-80% py-3 lg:block z-[9] -translate-y-[500px] animate-sembunyi">
+        <ul class="flex flex-col justify-center items-center w-full gap-8 text-white">
+            <li>
+                <span>Produk</span>
+                <img src="dist/image/down.png" alt="down" class="w-2 ml-1 inline-block">
+            </li>
+            <li>
+                <span>Program</span>
+            </li>
+            <li>
+                <span>Promo</span>
+            </li>
+            <li>
+                <span>Event</span>
+            </li>
+            <li>
+                <span>Beasiswa</span>
+            </li>
+            <li>
+                <span>Testimoni</span>
+            </li>
+            <li>
+                <span>Layanan</span>
+                <img src="dist/image/down.png" alt="down" class="w-2 ml-2 inline-block">
+            </li>
+            <li>
+                <span>Ruangbaca</span>
+            </li>
+        </ul>
+    </div>
     <!-- Navigation Bar End -->
 
     <!-- Section#1 Start -->

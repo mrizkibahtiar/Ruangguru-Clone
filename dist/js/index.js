@@ -45,13 +45,15 @@ if (semuaProduk.classList.contains('animate-munculAtas')) {
         semuaProduk.classList.toggle('translate-y-[500px]');
     });
 }
+
 if (semuaProduk.classList.contains('animate-munculAtas')) {
-    document.querySelector('body').addEventListener('click', () => {
+    document.body.addEventListener('click', () => {
         semuaProduk.classList.toggle('animate-munculAtas');
         semuaProduk.classList.toggle('animate-sembunyiBawah');
         semuaProduk.classList.toggle('translate-y-[500px]');
-    });
+    })
 }
+
 buttonSilang.addEventListener('click', () => {
 
     semuaProduk.classList.toggle('animate-munculAtas');

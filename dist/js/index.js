@@ -46,17 +46,44 @@ if (semuaProduk.classList.contains('animate-munculAtas')) {
     });
 }
 
-if (semuaProduk.classList.contains('animate-munculAtas')) {
-    document.body.addEventListener('click', () => {
-        semuaProduk.classList.toggle('animate-munculAtas');
-        semuaProduk.classList.toggle('animate-sembunyiBawah');
-        semuaProduk.classList.toggle('translate-y-[500px]');
-    })
-}
-
 buttonSilang.addEventListener('click', () => {
 
     semuaProduk.classList.toggle('animate-munculAtas');
     semuaProduk.classList.toggle('animate-sembunyiBawah');
     semuaProduk.classList.toggle('translate-y-[500px]');
 });
+
+
+// tingkat sekolah
+const buttonSekolah = document.querySelector('#button-sekolah');
+const menuSekolah = document.querySelector('#menu-sekolah');
+const buttonSilangSekolah = document.querySelector('#button-silang-sekolah');
+buttonSekolah.addEventListener('click', () => {
+    menuSekolah.classList.toggle('translate-y-[500px]');
+    // menuSekolah.classList.remove('animate-sembunyi');
+    menuSekolah.classList.toggle('animate-sembunyiBawah');
+    menuSekolah.classList.toggle('animate-munculAtas');
+
+})
+if (menuSekolah.classList.contains('animate-munculAtas')) {
+    buttonSekolah.addEventListener('click', () => {
+        menuSekolah.classList.toggle('animate-munculAtas');
+        menuSekolah.classList.toggle('animate-sembunyiBawah');
+        menuSekolah.classList.toggle('translate-y-[500px]');
+    });
+}
+
+buttonSilangSekolah.addEventListener('click', () => {
+
+    menuSekolah.classList.toggle('animate-munculAtas');
+    menuSekolah.classList.toggle('animate-sembunyiBawah');
+    menuSekolah.classList.toggle('translate-y-[500px]');
+});
+
+// button layanan
+const navbarLayanan = document.querySelector('#navbar-layanan');
+const tigaLayanan = document.querySelector('#tiga-layanan');
+
+navbarLayanan.addEventListener('click', () => {
+    tigaLayanan.classList.toggle('hidden');
+})

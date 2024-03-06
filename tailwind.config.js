@@ -11,6 +11,8 @@ module.exports = {
         munculAtas: 'munculAtas 1s ease-in-out 1',
         sembunyiAtas: 'sembunyiAtas 1s ease-in-out 1',
         sembunyiBawah: 'sembunyiBawah 1s ease-in-out 1',
+        tampilOptionNavbar: 'tampilOptionNavbar 1s ease-in-out 1',
+        sembunyiOptionNavbar: 'sembunyiOptionNavbar 1s ease-in-out 1',
       },
       keyframes: {
         munculBawah: {
@@ -36,6 +38,14 @@ module.exports = {
           // '25%': { transform: 'translateY(-300px)' },
           // '50%': { transform: 'translateY(-100px)' },
           '100%': { transform: 'translateY(500px)' }
+        },
+        tampilOptionNavbar: {
+          '0%': { display: 'none' },
+          '100%': { display: 'block' }
+        },
+        sembunyiOptionNavbar: {
+          '0%': { display: 'block' },
+          '100%': { display: 'none' }
         },
       }
     },

@@ -114,3 +114,30 @@ buttonSilangPromo.addEventListener('click', () => {
     menuPromo.classList.toggle('animate-sembunyiBawah');
     menuPromo.classList.toggle('translate-y-[500px]');
 });
+
+
+// klik kelas
+const kelas = document.querySelectorAll('.kelas');
+let lastClicked = -1;
+for (let i = 0; i <= kelas.length; i++) {
+    kelas[i].addEventListener('click', function () {
+        // hapus class untuk button yang terakhir di click
+        if (lastClicked !== -1) {
+            kelas[lastClicked].classList.toggle('bg-[#e0eefa]');
+            kelas[lastClicked].classList.toggle('border-gray-100');
+            kelas[lastClicked].classList.toggle('border-blue-400');
+            kelas[lastClicked].classList.toggle('text-blue-400');
+        }
+
+        // tambah toggle kelas baru
+        kelas[i].classList.toggle('bg-[#e0eefa]');
+        kelas[i].classList.toggle('border-blue-400');
+        kelas[i].classList.toggle('text-blue-400');
+        // toggle kelas lama
+        kelas[i].classList.toggle('border-gray-100');
+
+
+        // update indek untuk button yang terakhir di klik
+        lastClicked = i;
+    });
+}

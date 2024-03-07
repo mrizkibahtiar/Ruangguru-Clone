@@ -87,3 +87,30 @@ const tigaLayanan = document.querySelector('#tiga-layanan');
 navbarLayanan.addEventListener('click', () => {
     tigaLayanan.classList.toggle('hidden');
 })
+
+
+// Semua Produk
+const buttonPromo = document.querySelector('#button-promo');
+const menuPromo = document.querySelector('#menu-promo');
+const buttonSilangPromo = document.querySelector('#button-silang-promo');
+buttonPromo.addEventListener('click', () => {
+    menuPromo.classList.toggle('translate-y-[500px]');
+    // semuaProduk.classList.remove('animate-sembunyi');
+    menuPromo.classList.toggle('animate-sembunyiBawah');
+    menuPromo.classList.toggle('animate-munculAtas');
+
+})
+if (menuPromo.classList.contains('animate-munculAtas')) {
+    buttonPromo.addEventListener('click', () => {
+        menuPromo.classList.toggle('animate-munculAtas');
+        menuPromo.classList.toggle('animate-sembunyiBawah');
+        menuPromo.classList.toggle('translate-y-[500px]');
+    });
+}
+
+buttonSilangPromo.addEventListener('click', () => {
+
+    menuPromo.classList.toggle('animate-munculAtas');
+    menuPromo.classList.toggle('animate-sembunyiBawah');
+    menuPromo.classList.toggle('translate-y-[500px]');
+});

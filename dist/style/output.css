@@ -1075,10 +1075,6 @@ video {
   gap: 1rem;
 }
 
-.gap-5{
-  gap: 1.25rem;
-}
-
 .gap-8{
   gap: 2rem;
 }
@@ -1840,10 +1836,6 @@ video {
 
   .md\:w-\[35\%\]{
     width: 35%;
-  }
-
-  .md\:w-\[450px\]{
-    width: 450px;
   }
 
   .md\:w-\[500px\]{
